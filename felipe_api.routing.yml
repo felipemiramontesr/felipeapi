@@ -1,0 +1,8 @@
+felipe_api.get_flight_options:
+  path: '/api/v1/get-flight-options'
+  defaults:
+    _controller: '\Drupal\felipe_api\Controller\FelipeApiController::getFlightOptions'
+    _title: 'Get Flight Options'
+  methods: [GET]
+  requirements:
+    _permission: 'access content'

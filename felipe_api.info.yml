@@ -1,0 +1,9 @@
+name: 'Felipe API'
+type: module
+description: 'Module for generating custom Felipe API endpoints.'
+core_version_requirement: ^8 || ^9 || ^10
+package: Felipe API
+dependencies:
+  - serialization
+  - jsonapi
+  - rest
